@@ -1,0 +1,12 @@
+.form{
+margin-top: 250px;
+margin-left: 450px;
+margin-right: 350px;
+border: 2px solid blue;
+justify-items: center;
+padding: 10px;
+}
+#title{
+    margin-left: 10px;
+}
+

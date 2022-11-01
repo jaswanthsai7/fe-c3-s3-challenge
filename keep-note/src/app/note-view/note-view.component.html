@@ -1,0 +1,10 @@
+<div>
+
+<app-search (entered)="searchNote($event)"></app-search>
+<br>
+<br>
+<app-note [notes]="allNotes"></app-note>
+<br>
+</div>
+    <app-add-note (noteEvent)="addNote($event)"></app-add-note>
+    

@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col" *ngFor="let x of notes">
+            <div class="card">
+                <h4><b>{{x?.title}}</b></h4>
+                <br>
+                <div class="card-body">
+                    <p>{{x?.content}}</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
