@@ -9,4 +9,8 @@ padding: 10px;
 #title{
     margin-left: 10px;
 }
+#content{
+    width: 400px;
+    height: 60px;
+}
 
